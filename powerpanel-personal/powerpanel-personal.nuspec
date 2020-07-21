@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>powerpanel-personal</id>
-    <version>2.2.0</version>
+    <version>2.2.1</version>
     <packageSourceUrl>https://github.com/ekersey/choco-packages/powerpanel-personal</packageSourceUrl>
     <owners>ekersey</owners>
     <title>CyberPower PowerPanel Personal</title>
@@ -32,7 +32,7 @@ PowerPanel® Personal allows users to setup email notifications to receive real-
 **Runtime Configuration**
 In the event of a power outage, the user can configure the software to keep the computer running until the battery power runs low, or to shut down the computer immediately after a power outage to preserve the battery.
     </description>
-    <releaseNotes>https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_RN_PPP-Windows-v2.2.0.pdf</releaseNotes>
+    <releaseNotes>https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_RN_PPP-Windows-v2.2.1.pdf</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

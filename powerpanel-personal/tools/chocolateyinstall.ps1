@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://dl4jz3rbrsfum.cloudfront.net/software/ppp_windows_2_2_0.exe'
+$url        = 'https://dl4jz3rbrsfum.cloudfront.net/software/ppp_windows_2_2_1.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'CyberPower PowerPanel Personal*'
 
-  checksum      = 'B33632B6DFA648A32C0625BBB69A5AB2'
+  checksum      = '33890CCA7A32B335CFAEA2D819C69CCC'
   checksumType  = 'md5'
 
   silentArgs   = '-q'
